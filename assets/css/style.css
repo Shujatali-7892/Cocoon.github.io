@@ -2027,12 +2027,13 @@ label {
 	width: 100%;
 	left: 0;
 	top: 0;
-	background-color: rgba(0,0,0,.2);
+	background-color: rgb(82 82 82 / 32%);
 }
 .page-title-area {
+	background-attachment: scroll;
 	position: relative;
-	background-position: center;
-	background-size: cover;
+	background-position: top;
+	background-size: auto;
 	background-repeat: no-repeat;
 }
 .page-title {
