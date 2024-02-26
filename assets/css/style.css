@@ -4718,5 +4718,39 @@ abbr[title] {
 	font-weight: 700;
 	border-top: 1px solid rgba(0,0,0,.1);
 }
+.approach-area { 
+	height: 80vh;
+  }
+  #Teach { 
+    background-color: gold !important;
+}
+#Experiential{ 
+    background-color: gold !important;
+}
+
+  /* SECTION VERTICAL TABS */
+  #experienceTab.nav-pills .nav-link.active {
+	  color: var(--theme-yellow) !important;
+	  background-color: transparent;
+	  border-radius: 0px;
+	  border-left: 3px solid var(--theme-yellow);
+  }
+  #experienceTab.nav-pills .nav-link {
+	  border-radius: 0px;
+	  border-left: 2px solid var(--theme-gray);
+  }
+  .date-range {
+	  letter-spacing: 0.01em;
+	  color: var(--theme-gray);
+  }
+  
+  /* STUB  LINKS */
+  .approach-area  a {
+	  color: var(--theme-gray);
+	  transition: 0.3s eas-in-out;
+  }
+  .approach-area  a:hover {
+	  color: var(--theme-yellow);
+  }
  
  
