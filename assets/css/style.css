@@ -354,7 +354,7 @@ label {
 
 .header-bottom-area {
 	background: #fff;
-	padding: 15px 0;
+	padding: 5px 15px;
 }
 
 .header-bottom-area.uk-active {
@@ -532,7 +532,7 @@ label {
 	display: -ms-flexbox;
 	display: flex;
 	position: relative;
-	z-index: 0;
+	z-index: -1;
 }
 
 .swiper-slide {
@@ -902,7 +902,7 @@ label {
 	background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
 	color: #fff;
 	font-size: 12px;
-	padding: 23px 16px;
+	padding: 15px 15px;
 	line-height: 1;
 	-webkit-transition: all 300ms linear 0ms;
 	-khtml-transition: all 300ms linear 0ms;
@@ -5898,6 +5898,7 @@ abbr[title] {
 	position: relative;
 	z-index: 0;
 }
+
 .last-div .card-img-top-overlay .card-badge.top-right {
 	top: 1rem;
 	right: 1rem;
@@ -5962,4 +5963,421 @@ abbr[title] {
 	margin-bottom: 1.5rem;
 	position: relative;
 }
+
+.VLCSenior .card {
+
+	transition: transform 0.3s ease;
+}
+
+.VLCSenior .card:hover {
+	transform: translateY(-10px);
+}
+
 /* -------- VLCSenior page style end here */
+
+/* slidup style start here */
+
+.header-btn {
+	transition: transform 0.3s ease;
+}
+
+.header-btn:hover {
+	transform: translateY(-10px);
+}
+
+.logo {
+	transition: transform 0.3s ease;
+}
+
+.logo:hover {
+	transform: translateX(-10px);
+}
+
+.title {
+	transition: transform 0.3s ease;
+}
+
+.title:hover {
+	transform: translateY(-10px);
+}
+
+.btn {
+	transition: transform 0.3s ease;
+}
+
+.btn:hover {
+	transform: translateY(-10px);
+}
+
+.main-menu-list {
+	transition: transform 0.3s ease;
+}
+
+.main-menu-list:hover {
+	transform: translateY(-10px);
+}
+
+/* slidup style end here */
+/* .z-indx {
+	position: relative;
+	z-index: -1;
+} */
+
+/* -------admissionapply page style start here */
+
+.admissionapply .pagetitlearea {
+	background-image: url("../img/admission/education-day-elements-with-copy-space.jpg");
+
+}
+
+.admissionapply .white-title h1 {
+	color: white !important;
+}
+
+.q-div label {
+	font-size: 1.3rem;
+	font-weight: 700;
+
+}
+
+.q-div input[type=radio] {
+	border: 0px;
+	width: 20px;
+	height: 20px;
+}
+
+.admission-from-inner {
+	padding: 80px 110px;
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
+}
+
+.admission-from-wrap {
+	padding: 50px;
+	padding-top: 55px;
+	background: #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.admission-from-title {
+	margin-bottom: 34px;
+}
+
+.admission-from-title .title {
+	font-size: 30px;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+.admission-from-title .icon {
+	margin-right: 14px;
+	transform: translateY(-2px);
+	-webkit-transform: translateY(-2px);
+	-moz-transform: translateY(-2px);
+	-ms-transform: translateY(-2px);
+	-o-transform: translateY(-2px);
+}
+
+.admission-from select,
+.admission-from .form-control,
+.admission-from textarea {
+	
+	font-size: .9rem;
+	padding: 0 20px !important;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 2px solid #f4f4f4;
+	box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+	transition: .3s;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+}
+.admission-from .form-control{
+	height: 45px;
+}
+.admission-from select:focus-visible {
+	border-color: transparent !important;
+	outline: 2px solid #23cc88 !important
+}
+
+.admission-from select:focus,
+.admission-from input:focus,
+.admission-from textarea:focus {
+	border-color: #23cc88;
+}
+
+.admission-from select {
+	color: #ACACB5 !important;
+	appearance: none;
+}
+
+ 
+
+.admission-from ::-webkit-input-placeholder {
+	/* WebKit, Blink, Edge */
+	color: #ACACB5;
+}
+
+.admission-from :-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ACACB5;
+	opacity: 1;
+}
+
+.admission-from ::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ACACB5;
+	opacity: 1;
+}
+
+.admission-from :-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: #ACACB5;
+}
+
+.admission-from ::-ms-input-placeholder {
+	/* Microsoft Edge */
+	color: #ACACB5;
+}
+
+.admission-from ::placeholder {
+	/* Most modern browsers support this now. */
+	color: #ACACB5;
+}
+
+.admission-from .p-title {
+	padding: 10px 2px;
+	background-color: #ff9c00;
+	background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+	color: white !important;
+
+}
+
+.admission-from .p-lite {
+	text-align: center;
+	color: white !important;
+	font-weight: 700;
+	padding: 10px 2px;
+	background-image: -moz-linear-gradient(0deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
+	background-image: -webkit-linear-gradient(0deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
+	background-image: -ms-linear-gradient(0deg, rgb(255, 79, 88) 0%, rgb(255, 180, 0) 100%);
+	color: white !important;
+
+}
+.admission-from .p-lite p {
+color: white !important;
+font-weight: 700 !important;
+}
+
+/* -------admissionProcess page style start here */
+.main-menu-wrap{
+	position:  relative !important;
+	z-index: 999 !important;
+}
+ 
+
+
+/* ............/////////////////////////    Admission process page style */
+.admissionProcess .pagetitlearea {
+	background-image: url("../img/admission/education-day-elements-with-copy-space.jpg");
+
+}
+
+.admissionProcess .white-title h1 {
+	color: white !important;
+}
+.admissionProcess .road-map-main {
+	margin: 50px 0 51px;
+}
+
+.admissionProcess .road-map-main .road-map-wrapper {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 175px;
+}
+
+@media (max-width: 991px) {
+	.admissionProcess .road-map-main .road-map-wrapper {
+		margin-bottom: 25px;
+		height: auto;
+		display: block;
+	}
+}
+
+.admissionProcess .road-map-main .road-map-wrapper::before {
+	content: "";
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+.admissionProcess .road-map-main .road-map-wrapper::after {
+	content: "";
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+.admissionProcess .road-map-main .road-map-wrapper .road-map-circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 25px solid transparent;
+	/* border-top-color: #7a7bd7;
+	border-right-color: #7a7bd7; */
+  border-top-color: #a96739;
+		border-right-color: #a96739;   
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	transform: rotate(45deg);
+}
+
+@media (max-width: 992px) {
+	.admissionProcess .road-map-main .road-map-wrapper .road-map-circle {
+		position: unset;
+		border: 25px solid #7a7bd7;
+	}
+}
+
+.admissionProcess .road-map-main .road-map-wrapper .road-map-circle .road-map-circle-text {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	background-color: #eb0d0de0;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 26px;
+	text-transform: capitalize;
+	color: #fff;
+	box-shadow: 0px 0px 10px 5px #00000021;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	transform: rotate(-45deg);
+}
+
+ .admissionProcess .road-map-main .road-map-wrapper .road-map-card {
+	width: 35%;
+	/* background: #7a7bd7; */
+	background-color: #ff9c00;
+		background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+	padding: 20px 20px;
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	border-radius: 5px;
+}
+
+.admissionProcess .road-map-main .road-map-wrapper .road-map-card::before {
+	content: "";
+	width: 25%;
+	height: 20px;
+	/* background: #7a7bd7; */
+	background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -23%;
+	z-index: -1;
+}
+
+@media (max-width: 991px) {
+.admissionProcess	.road-map-main .road-map-wrapper .road-map-card {
+		width: 100%;
+		margin-top: 30px;
+		position: unset;
+	}
+
+		.admissionProcess .road-map-main .road-map-wrapper .road-map-card::before {
+		content: "";
+		width: 20px;
+		height: 30%;
+		top: 50%;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+}
+
+@media (max-width: 425px) {
+	.admissionProcess .road-map-main .road-map-wrapper .road-map-card {
+		top: 45%;
+	}
+}
+
+.admissionProcess .road-map-main .road-map-wrapper .road-map-card .card-head {
+	/* font-size: 20px; */
+	font-weight: 600;
+	text-transform: capitalize;
+	margin: 0 0 15px;
+	/* color: #fff; */
+}
+
+.admissionProcess .road-map-main .road-map-wrapper .road-map-card .card-text {
+	color: #fff;
+	margin: 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+@media (max-width: 1199px) {
+	.admissionProcess .road-map-main .road-map-wrapper .road-map-card .card-text {
+		-webkit-line-clamp: 4;
+	}
+}
+
+.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-circle {
+	border-bottom-color:#a96739;
+	border-left-color: #a96739;
+	border-top-color: transparent;
+	border-right-color: transparent;
+}
+
+@media (max-width: 991px) {
+.admissionProcess	.road-map-main .road-map-wrapper:nth-of-type(even) .road-map-circle {
+		border-color: #7a7bd7;
+	}
+}
+
+.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-card {
+	left: 0;
+}
+
+.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-card::before {
+	right: -23%;
+	left: unset;
+}
+
+@media (max-width: 991px) {
+	.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-card::before {
+		content: "";
+		width: 20px;
+		height: 30%;
+		top: 50%;
+		transform: translateX(-50%);
+		left: 50%;
+	}
+}
+
+@media (max-width: 425px) {
+	.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-card::before {
+		top: 45%;
+	}
+}

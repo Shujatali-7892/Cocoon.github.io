@@ -237,7 +237,7 @@
 /* SM Device :320px. */
 @media (max-width: 767px) {
     .header-bottom-area {
-        padding: 23px 0;
+        padding: 5px 0;
     }
     .banner-content h3 {
         font-size: 26px;
