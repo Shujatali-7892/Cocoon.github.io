@@ -532,7 +532,7 @@ label {
 	display: -ms-flexbox;
 	display: flex;
 	position: relative;
-	z-index: -1;
+
 }
 
 .swiper-slide {
@@ -6017,6 +6017,21 @@ abbr[title] {
 	transform: translateY(-10px);
 }
 
+.thm-btn,
+.thm-btn-2 {
+	transition: transform 0.3s ease;
+}
+
+.thm-btn:hover,
+.thm-btn-2:hover {
+	transform: translateY(-10px);
+}
+.about-img img{
+transition: transform 0.3s ease;
+}
+.about-img img:hover{
+	transform: translateY(-5px);
+}
 /* slidup style end here */
 /* .z-indx {
 	position: relative;
@@ -6087,7 +6102,7 @@ abbr[title] {
 .admission-from select,
 .admission-from .form-control,
 .admission-from textarea {
-	
+
 	font-size: .9rem;
 	padding: 0 20px !important;
 	width: 100%;
@@ -6100,9 +6115,11 @@ abbr[title] {
 	-ms-transition: .3s;
 	-o-transition: .3s;
 }
-.admission-from .form-control{
+
+.admission-from .form-control {
 	height: 45px;
 }
+
 .admission-from select:focus-visible {
 	border-color: transparent !important;
 	outline: 2px solid #23cc88 !important
@@ -6119,7 +6136,7 @@ abbr[title] {
 	appearance: none;
 }
 
- 
+
 
 .admission-from ::-webkit-input-placeholder {
 	/* WebKit, Blink, Edge */
@@ -6172,17 +6189,18 @@ abbr[title] {
 	color: white !important;
 
 }
+
 .admission-from .p-lite p {
-color: white !important;
-font-weight: 700 !important;
+	color: white !important;
+	font-weight: 700 !important;
 }
 
 /* -------admissionProcess page style start here */
-.main-menu-wrap{
-	position:  relative !important;
+.main-menu-wrap {
+	position: relative !important;
 	z-index: 999 !important;
 }
- 
+
 
 
 /* ............/////////////////////////    Admission process page style */
@@ -6194,6 +6212,7 @@ font-weight: 700 !important;
 .admissionProcess .white-title h1 {
 	color: white !important;
 }
+
 .admissionProcess .road-map-main {
 	margin: 50px 0 51px;
 }
@@ -6234,8 +6253,8 @@ font-weight: 700 !important;
 	border: 25px solid transparent;
 	/* border-top-color: #7a7bd7;
 	border-right-color: #7a7bd7; */
-  border-top-color: #a96739;
-		border-right-color: #a96739;   
+	border-top-color: #39cb77;
+	border-right-color: #39cb77;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -6257,6 +6276,9 @@ font-weight: 700 !important;
 	height: 110px;
 	border-radius: 50%;
 	background-color: #eb0d0de0;
+	background-image: linear-gradient(145deg, rgb(1, 203, 173) 0%, rgb(71, 161, 242) 100%);
+	box-shadow: 0px 18px 24px 0px rgba(1, 203, 173, 0.36);
+
 	font-size: 20px;
 	font-weight: 600;
 	line-height: 26px;
@@ -6272,11 +6294,11 @@ font-weight: 700 !important;
 	transform: rotate(-45deg);
 }
 
- .admissionProcess .road-map-main .road-map-wrapper .road-map-card {
+.admissionProcess .road-map-main .road-map-wrapper .road-map-card {
 	width: 35%;
 	/* background: #7a7bd7; */
 	background-color: #ff9c00;
-		background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
+	background-image: linear-gradient(145deg, rgb(35, 204, 136) 0%, rgb(142, 207, 53) 100%);
 	padding: 20px 20px;
 	z-index: 1;
 	position: absolute;
@@ -6298,13 +6320,13 @@ font-weight: 700 !important;
 }
 
 @media (max-width: 991px) {
-.admissionProcess	.road-map-main .road-map-wrapper .road-map-card {
+	.admissionProcess .road-map-main .road-map-wrapper .road-map-card {
 		width: 100%;
 		margin-top: 30px;
 		position: unset;
 	}
 
-		.admissionProcess .road-map-main .road-map-wrapper .road-map-card::before {
+	.admissionProcess .road-map-main .road-map-wrapper .road-map-card::before {
 		content: "";
 		width: 20px;
 		height: 30%;
@@ -6344,14 +6366,14 @@ font-weight: 700 !important;
 }
 
 .admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-circle {
-	border-bottom-color:#a96739;
-	border-left-color: #a96739;
+	border-bottom-color: #71ce4b;
+	border-left-color: #71ce4b;
 	border-top-color: transparent;
 	border-right-color: transparent;
 }
 
 @media (max-width: 991px) {
-.admissionProcess	.road-map-main .road-map-wrapper:nth-of-type(even) .road-map-circle {
+	.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-circle {
 		border-color: #7a7bd7;
 	}
 }
@@ -6380,4 +6402,14 @@ font-weight: 700 !important;
 	.admissionProcess .road-map-main .road-map-wrapper:nth-of-type(even) .road-map-card::before {
 		top: 45%;
 	}
+}
+
+.admi-div {
+	background-image: linear-gradient(145deg, #99BC85 1%, #80BCBD 50%);
+	/* box-shadow: 0px 18px 24px 0px rgba(233, 89, 197, 0.36); */
+}
+
+.admi-div p {
+	color: white !important;
+	font-weight: 700;
 }
