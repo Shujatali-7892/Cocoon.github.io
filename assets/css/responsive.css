@@ -143,6 +143,9 @@
  
 /* MD Device :768px. */
 @media (max-width: 991px) {
+    .admission-from-inner{
+        padding: 10px !important;
+    }
     .school-fecilities-single .icon {
         float: none;
         margin-top: 0;
