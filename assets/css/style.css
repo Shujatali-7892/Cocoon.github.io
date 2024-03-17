@@ -6413,3 +6413,8 @@ transition: transform 0.3s ease;
 	color: white !important;
 	font-weight: 700;
 }
+@media (max-width: 991px) {
+    .admission-from-inner{
+        padding: 10px !important;
+    }
+}
